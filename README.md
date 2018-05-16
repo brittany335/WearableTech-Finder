@@ -1,3 +1,9 @@
+Project Title
+One Paragraph of project description goes here
+
+Getting Started
+
+
 Wearabletech CompanyScraper
 
 (codes that need to run are Flask_app.py and ExecutesEverything.py)
