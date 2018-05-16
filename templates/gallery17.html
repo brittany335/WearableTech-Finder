@@ -1,0 +1,58 @@
+<!-- reference https://stackoverflow.com/questions/35755237/displaying-3-images-in-a-row-with-text-underneath-in-bootstrap -->
+<!-- https://www.w3schools.com/howto/howto_css_image_center.asp -->
+
+<!-- #attempted https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_img_align_css -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WearableTech Finder</title>
+
+</head>
+<header>
+   <h1 align="center">WearableTech Finder</h1>
+    <h3 align="center">By Brittany Cohen</h3>
+ </header>
+<body>
+  <style>
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<!-- styleing the text box https://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides -->
+<style>
+p {
+    border: 1px solid black;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    margin-right: 300px;
+    margin-left: 300px;
+
+}
+/* for company in dictionary:
+      print(company) */
+</style>
+  <section class="part2">
+       <div class="container">
+           <div class="row">
+           <div class="text-center">
+             {%for company in reversed_order %}
+             {% for element in range(size) %}
+              {% if company["png"]==image_names[element] %}
+
+              <a href= {{company["href"]}}><img alt="" class="resize-image" src=" {{url_for('send_image', filename=image_names[element])}}" style="width:40%" > </a>
+              <p><strong>Bio: </strong>{{company["description"][0]}}<br /><strong>Location: </strong>{{company["location"][0]}}<br /><strong>Email: </strong>{{company["email"][0]}}</p>
+
+                {% endif %}
+                 {% endfor %}
+
+               {% endfor %}
+           </div>
+       </div>
+       </div>
+
+
+</body>
+</html>
