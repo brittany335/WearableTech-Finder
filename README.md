@@ -73,4 +73,4 @@ To change the hashtag being search to find companys go into ExecutesEverything.p
 
 ### Scrape companys not from instagram
 
-If you wish to use this package to scrape general companys just use the CompnayInfo.py script and put in as many urls as you wish to scrape in a list. 
+If you wish to use this package to scrape general companys just use the CompanyInfo.py script and put in as many urls as you wish to scrape in a list. 
