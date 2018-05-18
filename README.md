@@ -69,7 +69,7 @@ pip3 install requests
 
 ### Change the hashtag
 
-To change the hashtag being search to find companys go into ExecutesEverything.py and change the hashtag to one you prefer.
+To change the hashtag being searched to find companys go into ExecutesEverything.py and change the hashtag to one you prefer.
 
 ### Scrape companys not from instagram
 
