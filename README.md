@@ -41,7 +41,7 @@ pip3 install pythonwhois
 ```
 • whois (details about module https://pypi.org/project/whois/)
 ```
-pip3 install whois
+pip3 install python-whois
 ```
 • Requests
 ```
