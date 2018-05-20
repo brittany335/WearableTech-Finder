@@ -1,4 +1,4 @@
-# WearableTech Finder
+# WearableTech Finder (Python 3)
 
 This package finds companys from a specified hashtag posted that day from instagram then scrapes the companys found for an email, bio, and address. It is then displays everything on a webapp.
 
@@ -6,47 +6,19 @@ This package finds companys from a specified hashtag posted that day from instag
 
 To run please open two terminals. In one terminal run the Flask_app.py to get a visual output of the results:
 ```
-python Flask_app.py
+python3 Flask_app.py
 ```
 In the other run ExecutesEverything.py. To run ExecutesEverything.py continuously so that the Flask_app.py is frequently updated in terminal run 
 
 ```
-while :; do python ExecutesEverything.py;  sleep 10; done
+while :; do python3 ExecutesEverything.py;  sleep 10; done
 ```
 
-### Prerequisites
-This package is only support on python3 
+### Installation 
+```
+pip3 install -r requirements.txt
+```
 
-modules used to run this package include: 
-
-•	bs4  (details about module  https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-```
-pip3 install beautifulsoup4
-```
-•	flask (details about module http://flask.pocoo.org/docs/1.0/installation/)
-```
-pip3 install Flask
-```
-•	selenium (details about module https://pypi.org/project/selenium/)
-```
-pip3 install -U selenium
-```
-•	instaloader (details about module https://pypi.org/project/instaloader/)
-```
-pip3 install instaloader
-```
-•	pythonwhois (details about module https://github.com/joepie91/python-whois)
-```
-pip3 install pythonwhois
-```
-• whois (details about module https://pypi.org/project/whois/)
-```
-pip3 install python-whois
-```
-• Requests
-```
-pip3 install requests
-```
 
 ### Inside ExecutesEverything.py
 
