@@ -13,6 +13,7 @@ In the other run ExecutesEverything.py. To run ExecutesEverything.py continuousl
 ```
 while :; do python3 ExecutesEverything.py;  sleep 10; done
 ```
+Once those two files are running go to http://127.0.0.1:6039/ to see the site 
 
 ### Installation 
 ```
